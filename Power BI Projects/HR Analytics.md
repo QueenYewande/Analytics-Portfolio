@@ -106,9 +106,7 @@ Visual dashboards were created using **Power BI** and **Excel** to present:
 
 > 📂 Visuals and screenshots are available in the `/visuals` folder.
 
-The chart below shows the annual employee attrition trend:
-
-![Annual Attrition](https://github.com/janedoe/hr-analytics/blob/main/visuals/annual_attrition_chart.png?raw=true)
+![Employee Analysis](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Employee%20Analysis.png))
 
 Below is the Power BI dashboard used for reporting:
 
