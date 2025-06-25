@@ -108,9 +108,14 @@ Visual dashboards were created using **Power BI** and **Excel** to present:
 
 ![Employee Analysis](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Employee%20Analysis.png))
 
-Below is the Power BI dashboard used for reporting:
+![Exit Analysis](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Exit%20Analysis.png)
 
-![Power BI Dashboard](./visuals/hr_dashboard_preview.png)
+
+![Exit Analysis](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Exit%20Analysis.png)
+
+
+![Exit Analysis](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Exit%20Analysis.png)
+
 ---
 
 ## Insights  
