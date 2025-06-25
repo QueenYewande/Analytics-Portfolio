@@ -13,11 +13,8 @@
 - [Data Visualization](#data-visualization)
 - [Insights](#insights)
 - [Recommendations](#recommendations)
-- [Implementation Strategy](#implementation-strategy)
 - [Conclusion](#conclusion)
 - [Tools Used](#tools-used)
-- [Repository Structure](#repository-structure)
-- [Author](#author)
 
 ---
 
@@ -66,7 +63,7 @@ The dataset contains HR records from 2015 to 2020 including:
 > **Note:** Data is anonymized and sourced internally from the company's HR system.
 ### Dataset Overview
 
-![Raw Data](https://github.com/your-username/your-repo-name/blob/main/images/attrition_chart.png?raw=true)
+![Raw Data](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Raw%20Data.png))
 ---
 
 ## Data Cleaning  
@@ -111,17 +108,17 @@ Visual dashboards were created using **Power BI** and **Excel** to present:
 ![Exit Analysis](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Exit%20Analysis.png)
 
 
-![Exit Analysis](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Exit%20Analysis.png)
+![Pay Analysis](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Pay%20Analysis.png))
 
 
-![Exit Analysis](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Exit%20Analysis.png)
+![Promotion and Exit Analysis](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Promotion%20%26%20Exit%20Analysis.png)
 
 ---
 
 ## Insights  
 
 - **Career stagnation** is the top reason for resignation.
-- The **Engineering department** faces the highest turnover — possibly due to competitive hiring in the tech industry.
+- The **Engineering department** faces the highest turnover, possibly due to competitive hiring in the tech industry.
 - **Lack of promotion opportunities** contributes to disengagement and exit.
 - **Young professionals** form the majority of those leaving, suggesting a need for better career development frameworks.
 - Attrition is **widespread across all locations**, indicating company-wide structural issues.
@@ -150,20 +147,14 @@ Visual dashboards were created using **Power BI** and **Excel** to present:
 
 ---
 
-## Implementation Strategy  
+## Recommendations
+- Staff promotion should be defined and regular to eliminate uncertainty of career growth
+- Provide support to staff to obtain further professional qualifications as required to further enhance professional development
+- Work/Life balance should be encouraged by the introduction of employee benefit packages for their health and well being and support given when needed
+- For those leaving for personal reasons, confidential counselling should be provided to staff that may need to talk
+- Look into the 26 staff members who showed promotions before date of employment for accurate data and if they were paid salary, need for company to look into this as it could be considered a financial crime as may raise issues with audit
 
-- **Short Term (0–3 Months):**
-  - Launch employee engagement surveys.
-  - Standardize exit data collection and categorization.
 
-- **Medium Term (3–6 Months):**
-  - Develop career growth and mentorship programs.
-  - Deploy Power BI dashboards to monitor real-time attrition.
-
-- **Long Term (6–12 Months):**
-  - Introduce a learning and development platform.
-  - Align performance metrics with promotion eligibility.
-  - Review HR policies and conduct impact assessments regularly.
 
 ---
 
