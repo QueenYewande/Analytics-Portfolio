@@ -37,7 +37,7 @@ This project leverages HR data to provide actionable insights for Palmoria’s H
 The dataset used for this project is a simulated HR dataset provided for training and analytics purposes.  
 - Format: CSV  
 - Fields include: `EmployeeID`, `Age`, `Gender`, `Department`, `JobRole`, `MonthlyIncome`, `SatisfactionLevel`, `Attrition`, `YearsAtCompany`, `PerformanceRating`, etc.
-[View Palmoria Project](https://github.com/QueenYewande/Analytics-Portfolio/blob/QueenYewande-patch-1/Power%20BI%20Projects/HR%20Raw%20data.png)
+![View Palmoria Project](https://github.com/QueenYewande/Analytics-Portfolio/blob/QueenYewande-patch-1/Power%20BI%20Projects/HR%20Raw%20data.png)
 
 ---
 
@@ -70,15 +70,15 @@ Tool used: **Power BI DAX & Power Query**
 
 ## 📈 Data Visualization
 Created interactive dashboards in Power BI to present:
-[View Gender Distribution](https://github.com/QueenYewande/Analytics-Portfolio/blob/QueenYewande-patch-1/Power%20BI%20Projects/Gender%20Distribution.png)
+![View Gender Distribution](https://github.com/QueenYewande/Analytics-Portfolio/blob/QueenYewande-patch-1/Power%20BI%20Projects/Gender%20Distribution.png)
 
-[View Gender Ratings](https://github.com/QueenYewande/Analytics-Portfolio/blob/QueenYewande-patch-1/Power%20BI%20Projects/Gender%20Ratings.png)
+![View Gender Ratings](https://github.com/QueenYewande/Analytics-Portfolio/blob/QueenYewande-patch-1/Power%20BI%20Projects/Gender%20Ratings.png)
 
-[View Gap Analysis(https://github.com/QueenYewande/Analytics-Portfolio/blob/QueenYewande-patch-1/Power%20BI%20Projects/Pay%20Gap%20analysis.png)
+![View Gap Analysis](https://github.com/QueenYewande/Analytics-Portfolio/blob/QueenYewande-patch-1/Power%20BI%20Projects/Pay%20Gap%20analysis.png)
 
-[View Salary bonus](https://github.com/QueenYewande/Analytics-Portfolio/blob/QueenYewande-patch-1/Power%20BI%20Projects/Salary%20Bonus.png)
+![View Salary bonus](https://github.com/QueenYewande/Analytics-Portfolio/blob/QueenYewande-patch-1/Power%20BI%20Projects/Salary%20Bonus.png)
 
-[View Wages](https://github.com/QueenYewande/Analytics-Portfolio/blob/QueenYewande-patch-1/Power%20BI%20Projects/Wages.png)
+![View Wages](https://github.com/QueenYewande/Analytics-Portfolio/blob/QueenYewande-patch-1/Power%20BI%20Projects/Wages.png)
 
 
 ---
