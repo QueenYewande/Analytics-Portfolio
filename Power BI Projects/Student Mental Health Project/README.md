@@ -1,6 +1,20 @@
 # STUDENTS' MENTAL HEALTH PROJECT
 
 ---
+## Table of Contents
+
+1. [Project Title](#-students-mental-health-project)
+2. [Introduction](#-introduction)
+3. [Business Questions](#-business-questions)
+4. [Objectives](#-objectives)
+5. [Data Source](#️-data-source)
+6. [Data Cleaning](#-data-cleaning)
+7. [Data Analysis](#-data-analysis)
+8. [Data Visualization](#-data-visualization)
+9. [Insights](#-insights)
+10. [Recommendations](#-recommendations)
+
+---
 
 ## Introduction
 
@@ -37,7 +51,7 @@ Recent studies from organizations like the National Alliance on Mental Illness (
 - **Target Group**: University students
 - **Attributes Collected**: Age, Gender, Marital Status, Course, CGPA, Mental Ailment Diagnosed, Specialist Treatment Access
 - **Timeframe**: Fall 2021 – Spring 2022
-
+![View data source](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Student%20Mental%20Health%20Project/raw%20dataset.png)
 ---
 
 ## Data Cleaning
@@ -63,12 +77,19 @@ Recent studies from organizations like the National Alliance on Mental Illness (
 
 ## Data Visualization
 
-- Bar chart: Ailment frequency by gender
-- Pie chart: Percentage of students with each ailment
-- Heatmap: Ailment frequency by CGPA and course
-- Line chart: Age vs. prevalence of each ailment
-- Treemap: Demographic breakdown of students with triple ailments
-- Stacked column: Treatment access comparison
+
+
+![View general health](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Student%20Mental%20Health%20Project/General%20Health.png)
+
+![View HBP](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Student%20Mental%20Health%20Project/HBP.png)
+
+![View Insomnia](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Student%20Mental%20Health%20Project/Insomnia.png)
+
+![View Specialist](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Student%20Mental%20Health%20Project/Specialist.png)
+
+![View Obesity](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Student%20Mental%20Health%20Project/obesity.png)
+
+![View diagnostic](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Student%20Mental%20Health%20Project/Diagnostic.png)
 
 ---
 
