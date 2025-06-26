@@ -1,10 +1,21 @@
-# Palmoria HR Analytics Project
-
 ## Project Title
 **Palmoria HR Analytics Gender Inequality Project**  
 
 ---
+## Table of Contents
 
+1. [Project Title](#-project-title)  
+2. [Introduction](#-introduction)  
+3. [Business Questions](#-business-questions)  
+4. [Objectives](#-objectives)  
+5. [Data Source](#-data-source)  
+6. [Data Cleaning](#-data-cleaning)  
+7. [Data Analysis](#-data-analysis)  
+8. [Data Visualization](#-data-visualization)  
+9. [Insights](#-insights)  
+10. [Recommendations](#-recommendations)  
+    
+---
 ## Introduction
 Palmoria Group, a manufacturing company operating in 3 regions in Nigeria has been accused by the media of being a "Manufacturing Patriarchy" suggesting that there are gender inequalities in their regions of operation. 
 
