@@ -21,7 +21,7 @@ Recent studies from organizations like the National Alliance on Mental Illness (
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Investigate mental health conditions within the student community.
 - Examine the impact of demographics on mental health disorders.
