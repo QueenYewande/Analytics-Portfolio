@@ -1,6 +1,6 @@
-![image](https://github.com/user-attachments/assets/90a49fd7-475f-4eec-ac37-5789bc7d4616)
+
 # Project Title
-**Sales Performance Dashboard and Analysis**
+##**Sales Performance Dashboard and Analysis**
 
 ---
 ## Table of Contents
