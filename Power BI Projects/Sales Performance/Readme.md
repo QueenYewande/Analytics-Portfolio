@@ -73,6 +73,7 @@ Steps performed:
 - Ensured revenue and quantity fields are in correct numeric format.
 
 Tools used: **Excel**, **Power Query**
+![Viee Power Query](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Sales%20Performance/power%20query.png)
 
 ---
 
