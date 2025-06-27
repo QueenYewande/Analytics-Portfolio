@@ -33,6 +33,12 @@ This project explores the company’s sales performance over a defined period, w
 - Internal sales records exported from FAYAMASK's ERP and CRM systems.
 - Dataset includes: transaction ID, product name, category, segment, sales channel, discount, cost, profit, date, customer type, and region.
 
+!(https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/raw%20file%20-%20sales.png)
+
+!(
+https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/raw%20file-channel.png
+)
+
 ---
 
 ## Data Cleaning
@@ -68,6 +74,24 @@ This project explores the company’s sales performance over a defined period, w
 ---
 
 ## Data Visualization
+
+!(https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/sales%20report.png)
+
+!(https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/sales%20segment.png)
+
+!(https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/daily%20sales%20analysis.png)
+
+!(https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/daily%20sales%20analysis.png)
+
+!(https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/discount%20%26%20vat%20report.png)
+
+!(https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/discount%20%26%20vat%20report.png)
+
+!(https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/profit%20by%20segment.png)
+
+!(https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/predictions.png)
+
+
 
 
 ---
