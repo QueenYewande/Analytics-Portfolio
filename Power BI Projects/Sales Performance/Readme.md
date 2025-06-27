@@ -1,6 +1,6 @@
 
 # Project Title
-**Sales Performance Dashboard and Analysis**
+## Sales Performance Dashboard and Analysis
 
 ---
 ## Table of Contents
