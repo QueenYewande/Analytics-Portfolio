@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/90a49fd7-475f-4eec-ac37-5789bc7d4616)
 # Project Title
 **Sales Performance Dashboard and Analysis**
 
@@ -58,6 +58,8 @@ The dataset used in this project was obtained from the company’s internal CRM/
 - Quantity Sold
 - Date of Sale
 
+![View Data Source](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Sales%20Performance/raw%20file.png)
+
 ---
 
 ## Data Cleaning
@@ -86,11 +88,17 @@ Analysis focused on the following areas:
 - Country-level Revenue Performance
 - Top 5 Products by Revenue
 
+![View Pivot Analysis](
+https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Sales%20Performance/pivot.png)
+
 ### Power Pivot (DAX)
 
 - Created calculated fields: `Total Revenue`, `Total Boxes`, `Total Products`, `Total Salespersons`, `Market Coverage`
 - Created measures to compute top N performers dynamically
 - Built relationships between tables (e.g., Sales, Products, Salesperson)
+
+
+![View Power Pivot](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Sales%20Performance/power%20pivot.png)
 
 ---
 
@@ -104,6 +112,7 @@ Created using **Excel Dashboards** and **Power BI**:
 - Top 10 Salespeople by Revenue
 - Top 5 Products Revenue Share
 
+![View Visualization](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Sales%20Performance/dashboard.png)
 
 ---
 
@@ -119,7 +128,7 @@ Created using **Excel Dashboards** and **Power BI**:
 ## Recommendations
 
 - Increase inventory and marketing investment for top-performing categories.
-- Consider regional expansion in high-performing countries such as Germany and USA.
+- Consider regional expansion in high-performing countries such as Canada and USA.
 - Provide incentives and training programs to underperforming sales teams.
 - Use performance metrics from top salespeople to develop best-practice strategies.
 - Reevaluate product lines with low sales contributions and phase out underperformers.
