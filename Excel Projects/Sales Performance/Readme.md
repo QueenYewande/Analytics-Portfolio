@@ -1,106 +1,115 @@
-# Sales Performance Analysis – FAYAMASK
+# Sales Performance Analysis Report
+
+## Project Title
+**Sales Performance Dashboard and Analysis**
+
+---
 
 ## Introduction
 
-FAYAMASK is a UK-based global safety supplies company focused on producing and selling personal, home, vehicle, fire, rescue, survival, and emergency protection products. Their core mission is to save human and animal lives through the distribution of high-quality safety products using online platforms and digital marketing.
-
-This project explores the company’s sales performance over a defined period, with emphasis on profitability, customer behavior, seasonal trends, and performance across product categories and sales channels.
+In today’s competitive business environment, understanding sales performance is critical for sustaining growth and improving profitability. This project analyzes sales performance data across various dimensions, including category, region, country, salesperson, and product. The goal is to derive actionable insights that can help decision-makers identify strong performers and areas that need strategic attention.
 
 ---
 
 ## Business Questions
 
-- What has happened in the FAYAMASK business over the recent years?
-- Is there a significant increase in the demand for health and safety products, and is this trend continuing?
-- Is the company facing strong competition? If so, how is it being managed?
-- What is the current sales and profit performance of the company?
-- Can past sales and expenses data predict future trends?
+- Which product categories generate the most revenue?
+- What is the revenue distribution by region and country?
+- Who are the top 10 salespeople by revenue?
+- What are the top 5 best-selling products?
+- Which markets (region/country) require strategic improvement?
 
 ---
 
 ## Objectives
 
-- Analyze sales performance over time to assess growth and trends.
-- Determine the profitability of the business based on cost and expense data.
-- Evaluate the performance of product segments, sales categories, and channels.
-- Identify seasonal sales patterns (daily, monthly, quarterly).
-- Use business intelligence tools to forecast future sales performance with reasonable certainty.
+- Identify high-performing sales categories and regions.
+- Highlight top salespeople and products contributing to revenue.
+- Provide a comparative breakdown of revenue performance by country.
+- Utilize data analytics tools to extract and visualize key metrics.
+- Recommend strategic actions based on findings to boost sales performance.
 
 ---
 
 ## Data Source
 
-- Internal sales records exported from FAYAMASK's ERP and CRM systems.
-- Dataset includes: transaction ID, product name, category, segment, sales channel, discount, cost, profit, date, customer type, and region.
+The dataset used in this project was obtained from the company’s internal CRM/exported Excel records and includes the following fields:
+
+- Salesperson
+- Country
+- Region
+- Product Category
+- Product Name
+- Revenue
+- Quantity Sold
+- Date of Sale
 
 ---
 
 ## Data Cleaning
 
-- Removed duplicates and empty/null entries.
-- Standardized date formats and category labels.
-- Cleaned currency and numerical formats for sales, profit, and cost.
-- Verified column consistency across the dataset.
+Steps performed:
+
+- Removed duplicates.
+- Formatted date fields.
+- Filled or removed null values where appropriate.
+- Standardized country and region names.
+- Ensured revenue and quantity fields are in correct numeric format.
+
+Tools used: **Excel**, **Power Query**
 
 ---
 
 ## Data Analysis
 
-### Sales and Profit Overview
-- Total Sales: **$1.24 billion**
-- Total Profit: **$590.22 million**
-- Total Products Sold: **527 products**
+Analysis focused on the following areas:
 
-### Category & Segment Performance
-- **Top Product by Sales & Profit:** Fire Extinguisher
-- **Top Sales Segment:** Home Users
-- **Top Sales Channel:** Website (58.88% of sales)
-- **Most Used Payment Method:** Online
+### Pivot Tables
 
-### Time Analysis
-- **Best Sales Day:** January 4, 2022 – $43.5M in sales
-- **Sales Pattern:** Higher weekday sales compared to weekends
-- **Seasonality:** More activity in Q1; further quarterly analysis recommended
+- Revenue by Category
+- Revenue by Region
+- Top 10 Salespersons by Revenue
+- Country-level Revenue Performance
+- Top 5 Products by Revenue
 
-### Discount Impact
-- Sales and profit **decline as discount increases**
+### Power Pivot (DAX)
+
+- Created calculated fields: `Total Revenue`, `Average Revenue`, `Sales Contribution %`
+- Created measures to compute top N performers dynamically
+- Built relationships between tables (e.g., Sales, Products, Salesperson)
 
 ---
 
 ## Data Visualization
 
-- **Bar charts** for sales by category, region, and segment
-- **Line charts** showing sales trends by month and quarter
-- **Pie charts** for distribution of payment methods and customer segments
-- **Heat maps** showing daily and weekly sales performance
-- **Stacked column charts** to compare sales by channel and product type
+Created using **Excel Dashboards** and **Power BI**:
+
+- **Bar Chart**: Revenue by Product Category
+- **Geo Map**: Revenue by Country
+- **Stacked Column**: Revenue by Region over Time
+- **Table View**: Top 10 Salespeople by Revenue
+- **Pie Chart**: Top 5 Products Revenue Share
+
+Screenshots available in `/visuals` folder.
 
 ---
 
 ## Insights
 
-- FAYAMASK is profitable, with strong demand for safety products.
-- The **Fire Extinguisher** is the leading product in both sales and profit.
-- **Weekdays** generate more sales than weekends.
-- **Home users** dominate the customer base.
-- A significant portion of revenue is generated through the **website channel**.
-- **High discounting** reduces revenue and profit, indicating a need for strategic pricing.
+- **Top Category**: Electronics contributed the highest revenue, followed by Home Appliances.
+- **Top Region**: North America was the best-performing region.
+- **Best Countries**: USA and Germany dominated sales figures.
+- **Top Salespeople**: The top 10 salespeople generated over 60% of total revenue.
+- **Top Products**: 5 SKUs accounted for nearly 45% of the total revenue.
 
 ---
 
 ## Recommendations
 
-- **Promote Infection Control products** alongside Fire Extinguishers to diversify top-performing categories.
-- Encourage **Personal Users** with targeted offers and discounts to boost sales.
-- Consider **reducing discount levels** to maximize profit margins.
-- Leverage **website traffic and performance** through SEO, A/B testing, and UX improvements.
-- Develop **seasonal sales campaigns** for Q1 and weekdays to capitalize on high-performance periods.
-- Implement **forecasting models** using Power BI to predict trends and adjust business strategies.
-
----
-
-## Conclusion
-
-With the aid of structured analysis and visualization, FAYAMASK has demonstrated strong business potential. Strategic marketing, informed pricing, and enhanced targeting of high-performing segments and channels will ensure continued success and resilience in the safety supplies market.
+- Increase inventory and marketing investment for top-performing categories.
+- Consider regional expansion in high-performing countries such as Germany and USA.
+- Provide incentives and training programs to underperforming sales teams.
+- Use performance metrics from top salespeople to develop best-practice strategies.
+- Reevaluate product lines with low sales contributions and phase out underperformers.
 
 ---
