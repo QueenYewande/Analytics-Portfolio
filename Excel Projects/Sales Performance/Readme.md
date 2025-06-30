@@ -4,6 +4,22 @@
 **Sales Performance Dashboard and Analysis**
 
 ---
+## Table of Contents
+
+1. [Project Title](#-project-title)  
+2. [Introduction](#-introduction)  
+3. [Business Questions](#-business-questions)  
+4. [Objectives](#-objectives)  
+5. [Data Source](#️-data-source)  
+6. [Data Cleaning](#-data-cleaning)  
+7. [Data Analysis](#-data-analysis)  
+   - [Pivot Tables](#-pivot-tables)  
+   - [Power Pivot (DAX)](#-power-pivot-dax)  
+8. [Data Visualization](#-data-visualization)  
+9. [Insights](#-insights)  
+10. [Recommendations](#-recommendations)  
+
+---
 
 ## Introduction
 
