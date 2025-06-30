@@ -98,15 +98,7 @@ Analysis focused on the following areas:
 
 ## Data Visualization
 
-Created using **Excel Dashboards** and **Power BI**:
 
-- **Bar Chart**: Revenue by Product Category
-- **Geo Map**: Revenue by Country
-- **Stacked Column**: Revenue by Region over Time
-- **Table View**: Top 10 Salespeople by Revenue
-- **Pie Chart**: Top 5 Products Revenue Share
-
-Screenshots available in `/visuals` folder.
 
 ---
 
