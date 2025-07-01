@@ -5,7 +5,7 @@
 ## Table of Contents
 
 1. [Project Title](##-project-title)  
-2. [Introduction](## Introduction)  
+2. [Introduction](##-Introduction)  
 3. [Business Questions](##-business-questions)  
 4. [Objectives](##-objectives)  
 5. [Data Source](#️#-data-source)  
