@@ -1,13 +1,11 @@
 # Sales Performance Analysis Report
 
-## Project Title
-**Sales Performance Dashboard and Analysis**
 
 ---
 ## Table of Contents
 
 1. [Project Title](##-project-title)  
-2. [Introduction](##-introduction)  
+2. [Introduction](## Introduction)  
 3. [Business Questions](##-business-questions)  
 4. [Objectives](##-objectives)  
 5. [Data Source](#️#-data-source)  
@@ -20,6 +18,10 @@
 10. [Recommendations](##-recommendations)  
 
 ---
+## Project Title
+**Sales Performance Dashboard and Analysis**
+
+----
 
 ## Introduction
 
