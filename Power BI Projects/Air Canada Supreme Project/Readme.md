@@ -75,11 +75,14 @@ Data was collected from surveys and flight log systems during the most recent tr
 
 ## Data Visualization
 
-- **Bar Chart:** Age range vs. total number of travelers.
-- **Donut Chart:** Gender distribution across loyalty groups.
-- **Bar Chart:** Most traveled distances (2K and 3K).
-- **Pie Chart:** Loyalty vs. disloyalty comparison.
-- **Stacked Bar:** Gender vs. satisfaction (Satisfied, Neutral, Disloyal).
+![Customer Analysis](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Air%20Canada%20Supreme%20Project/Customer%20Analysis.png)
+
+![Product Analysis](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Air%20Canada%20Supreme%20Project/Product%20Analysis.png)
+
+![product analysis](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Air%20Canada%20Supreme%20Project/Product%20Analysis.png)
+
+![Post flight](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Air%20Canada%20Supreme%20Project/Post-Flight.png)
+
 
 ---
 
