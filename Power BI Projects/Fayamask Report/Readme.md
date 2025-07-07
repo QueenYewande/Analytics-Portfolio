@@ -2,20 +2,21 @@
 ---
 ## Table of Contents
 
-1. [Introduction](#-introduction)
-2. [Business Questions](#-business-questions)
-3. [Objectives](#-objectives)
-4. [Data Source](#️-data-source)
-5. [Data Cleaning](#-data-cleaning)
-6. [Data Analysis](#-data-analysis)
-   - [Sales and Profit Overview](#-sales-and-profit-overview)
-   - [Category & Segment Performance](#-category--segment-performance)
-   - [Time Analysis](#-time-analysis)
-   - [Discount Impact](#-discount-impact)
-7. [Data Visualization](#-data-visualization)
-8. [Insights](#-insights)
-9. [Recommendations](#-recommendations)
-10. [Conclusion](#-conclusion)
+1. [Introduction](#introduction)
+2. [Business Questions](#business-questions)
+3. [Objectives](#objectives)
+4. [Data Source](#data-source)
+5. [Data Cleaning](#data-cleaning)
+6. [Data Analysis](#data-analysis)
+   - [Sales and Profit Overview](#sales-and-profit-overview)
+   - [Category & Segment Performance](#category--segment-performance)
+   - [Time Analysis](#time-analysis)
+   - [Discount Impact](#discount-impact)
+7. [Data Visualization](#data-visualization)
+8. [Insights](#insights)
+9. [Recommendations](#recommendations)
+10. [Conclusion](#conclusion)
+    
 ---
 ##  Introduction
 
