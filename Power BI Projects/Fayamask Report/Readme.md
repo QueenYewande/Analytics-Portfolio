@@ -91,19 +91,20 @@ This project explores the company’s sales performance over a defined period, w
 
 ## Data Visualization
 
-!(https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/sales%20report.png)
-
-!(https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/sales%20segment.png)
-
-!(https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/daily%20sales%20analysis.png)
-
-!(https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/diagnostic%20analysis.png)
-
-!(https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/discount%20%26%20vat%20report.png)
-
-!(https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/predictions.png)
-
-!(https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/profit%20by%20segment.png)
+### Sales Report
+![Sales report](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/sales%20report.png)
+### Sales Segment
+![Sales Segment](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/sales%20segment.png)
+### Sales Analysis
+![Sales Analysis](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/daily%20sales%20analysis.png)
+### Diagnostic Analysis
+![Diagnostic analysis](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/diagnostic%20analysis.png)
+### Discount Report
+![Discount report](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/discount%20%26%20vat%20report.png)
+### Predictions
+![Predictions](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/predictions.png)
+### Profit by Segment
+![Profit Segment](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Power%20BI%20Projects/Fayamask%20Report/profit%20by%20segment.png)
 
 
 
