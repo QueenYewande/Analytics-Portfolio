@@ -96,11 +96,16 @@ Analysis focused on the following areas:
 - Created measures to compute top N performers dynamically
 - Built relationships between tables (e.g., Sales, Products, Salesperson)
 
+![Power Query](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Excel%20Projects/Sales%20Performance/power%20query.png)
+
+![Data Analysis](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Excel%20Projects/Sales%20Performance/power%20pivot.png)
+
+
 ---
 
 ## Data Visualization
 
-
+![Data Visualization](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/Excel%20Projects/Sales%20Performance/dashboard.png)
 
 ---
 
