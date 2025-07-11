@@ -229,13 +229,7 @@ ORDER BY TotalSales DESC;
 
 ## Visualizations
 
-Part 2 of this project will present insights using **Power BI dashboards** connected to the SQL views created. These will visually represent:
-
-- Monthly Sales Trends  
-- Regional Revenue Performance  
-- Top Products  
-- Customer Segments  
-- Sales Rep Contributions
+![Dashboard](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/SQL%20Projects/AdventureWorks2022/Adventure%20Works.png)
 
 ---
 
