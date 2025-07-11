@@ -53,8 +53,7 @@ Custom views were created to modularize queries and support efficient reporting:
 
 - `vw_FactSales` – Fact table for Sales data
   
-  ```sql
-CREATE VIEW dbo.vw_FactSales AS
+```CREATE VIEW dbo.vw_FactSales AS
 SELECT
     oh.OrderDate,
     od.ProductID,
@@ -64,8 +63,7 @@ SELECT
     od.OrderQty
 FROM Sales.SalesOrderHeader AS oh
 JOIN Sales.SalesOrderDetail AS od 
-    ON oh.SalesOrderID = od.SalesOrderID;
-  ```
+    ON oh.SalesOrderID = od.SalesOrderID;```
 
 - `vw_DimProduct` – Product dimension
 
