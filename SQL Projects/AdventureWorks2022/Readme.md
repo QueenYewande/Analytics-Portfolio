@@ -1,4 +1,5 @@
 # Analyzing AdventureWorks2022: A Structured Approach with SQL
+![View Dashboard](https://github.com/QueenYewande/Analytics-Portfolio/blob/main/SQL%20Projects/AdventureWorks2022/Adventure%20Works.png)
 
 This project demonstrates how SQL can be used to explore and extract actionable business insights from the **AdventureWorks2022** OLTP database. The analysis covers sales performance, product trends, customer behavior, and sales territories. Views were created to support reporting and visualization using **Power BI**.
 
