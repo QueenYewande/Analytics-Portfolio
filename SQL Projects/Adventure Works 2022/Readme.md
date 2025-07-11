@@ -65,8 +65,9 @@ FROM Sales.SalesOrderHeader AS oh
 JOIN Sales.SalesOrderDetail AS od 
     ON oh.SalesOrderID = od.SalesOrderID;```
 
+---
+## Additional views
 - `vw_DimProduct` – Product dimension
-
 - `vw_DimCustomer` – Customer dimension  
 - `vw_DimDate` – Date dimension  
 
