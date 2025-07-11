@@ -10,10 +10,6 @@ This project demonstrates how SQL can be used to explore and extract actionable 
 2. [Data Source & Tools](#data-source--tools)  
 3. [Views Created](#views-created)  
 4. [Data Analysis](#data-analysis)  
-   - [Sales Trend Analysis 2013–2014](#sales-trend-analysis-20132014)  
-   - [Product Performance](#product-performance)  
-   - [Customer Insights](#customer-insights)  
-   - [Territory & Sales Rep Performance](#territory--sales-rep-performance)  
 5. [Visualizations](#visualizations)  
 6. [Conclusion](#conclusion)
 
