@@ -53,7 +53,8 @@ Custom views were created to modularize queries and support efficient reporting:
 
 - `vw_FactSales` – Fact table for Sales data
   
-```CREATE VIEW dbo.vw_FactSales AS
+<pre> ```sql 
+CREATE VIEW dbo.vw_FactSales AS
 SELECT
     oh.OrderDate,
     od.ProductID,
@@ -64,6 +65,7 @@ SELECT
 FROM Sales.SalesOrderHeader AS oh
 JOIN Sales.SalesOrderDetail AS od 
     ON oh.SalesOrderID = od.SalesOrderID;```
+</pre>
 
 ---
 ## Additional views
@@ -82,7 +84,7 @@ These views served as the foundation for Power BI reports and performance optimi
 - Identified **highest** and **lowest revenue months** using a CTE
 - Used `FORMAT()` and `ROUND()` functions for grouping and display
 
-```
+<pre> ```sql 
 SELECT
     FORMAT(oh.OrderDate, 'yyyy-MM') AS [YearMonth],
     st.Name AS Territory,
@@ -93,7 +95,9 @@ JOIN Sales.SalesTerritory AS st ON oh.TerritoryID = st.TerritoryID
 WHERE oh.OrderDate BETWEEN '2013-01-01' AND '2014-12-31'
 GROUP BY FORMAT(oh.OrderDate, 'yyyy-MM'), st.Name
 ORDER BY [YearMonth];
-```
+</pre>
+
+<pre> ```sql 
 WITH MonthlySales AS (
     SELECT
         FORMAT(oh.OrderDate, 'yyyy-MM') AS [YearMonth],
@@ -116,6 +120,7 @@ FROM (
     FROM MonthlySales 
     ORDER BY Revenue ASC
 ) AS Low;
+</pre>
 
 >  **Insight:** Revenue fluctuated by month and territory. Identifying peak and low seasons is vital for forecasting and inventory planning.
 
@@ -124,7 +129,7 @@ FROM (
 ### 2. Product Performance
 
 - Identified **Top 10 products by revenue**
-```
+<pre> ```sql 
 SELECT TOP 10 
     p.Name AS ProductName,
     ps.Name AS SubCategory,
@@ -134,11 +139,11 @@ JOIN Production.Product p ON od.ProductID = p.ProductID
 LEFT JOIN Production.ProductSubcategory ps ON p.ProductSubcategoryID = ps.ProductSubcategoryID
 GROUP BY p.Name, ps.Name
 ORDER BY TotalRevenue DESC;
-```
+</pre>
 
 - Highlighted **Bottom 5 products** to evaluate discontinuation or marketing support
 
-```
+<pre> ```sql 
 SELECT TOP 5 
     p.Name AS ProductName,
     ps.Name AS SubCategory,
@@ -148,8 +153,7 @@ JOIN Production.Product p ON od.ProductID = p.ProductID
 LEFT JOIN Production.ProductSubcategory ps ON p.ProductSubcategoryID = ps.ProductSubcategoryID
 GROUP BY p.Name, ps.Name
 ORDER BY TotalRevenue ASC;
-
-```
+</pre>
 
 > **Insight:** A small set of products generates the majority of revenue (Pareto Principle). Some products underperform and may need intervention.
 
@@ -158,7 +162,8 @@ ORDER BY TotalRevenue ASC;
 ### 3. Customer Insights
 
 - Top 5 **individual customers** identified by total spend
-```
+   
+<pre> ```sql 
 SELECT TOP 5
     c.CustomerID,
     p.FirstName + ' ' + p.LastName AS CustomerName,
@@ -170,11 +175,12 @@ JOIN Person.Person p ON c.PersonID = p.BusinessEntityID
 WHERE c.StoreID IS NULL
 GROUP BY c.CustomerID, p.FirstName, p.LastName
 ORDER BY TotalSpent DESC;
-```
+</pre>
+
 > **Insight:** Store customers place larger and more frequent orders, but individuals are also key contributors.
 
 - Average Spend: Individual vs Store
-```
+<pre> ```sql 
 SELECT 
     CASE 
         WHEN c.StoreID IS NULL THEN 'Individual' 
@@ -187,13 +193,14 @@ FROM Sales.Customer c
 JOIN Sales.SalesOrderHeader oh ON c.CustomerID = oh.CustomerID
 JOIN Sales.SalesOrderDetail od ON oh.SalesOrderID = od.SalesOrderID
 GROUP BY CASE WHEN c.StoreID IS NULL THEN 'Individual' ELSE 'Store' END;
-```
+</pre>
+
 - Compared **average spend per order** for individual vs store customers
 
 ### 4. Territory & Sales Rep Performance
 
 - Total revenue breakdown by **sales territory**
-```
+<pre> ```sql 
 SELECT 
     st.Name AS Territory,
     ROUND(SUM(od.LineTotal),0) AS TotalRevenue
@@ -202,10 +209,10 @@ JOIN Sales.SalesOrderDetail od ON oh.SalesOrderID = od.SalesOrderID
 JOIN Sales.SalesTerritory st ON oh.TerritoryID = st.TerritoryID
 GROUP BY st.Name
 ORDER BY TotalRevenue DESC;
-```
+</pre>
 
 - Top 5 **salespeople** based on total sales
-```
+<pre> ```sql 
 SELECT TOP 5
     sp.BusinessEntityID,
     p.FirstName + ' ' + p.LastName AS SalesPerson,
@@ -217,7 +224,7 @@ JOIN HumanResources.Employee e ON sp.BusinessEntityID = e.BusinessEntityID
 JOIN Person.Person p ON e.BusinessEntityID = p.BusinessEntityID
 GROUP BY sp.BusinessEntityID, p.FirstName, p.LastName
 ORDER BY TotalSales DESC;
-```
+</pre>
 
 >  **Insight:** Sales performance varies by region and rep. High performers can mentor or set benchmarks for others.
 
